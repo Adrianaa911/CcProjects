@@ -1,6 +1,5 @@
 https://www.youtube.com/watch?v=qu1zWdqoado&t=683s
 
-
 const input = "Hello whale. How are you doing today?"
 
 const vowels = ["a", "e", "i", "o", "u"];
@@ -8,10 +7,10 @@ const vowels = ["a", "e", "i", "o", "u"];
 const resultArray = [];
 for (let inputIndex = 0; inputIndex<input.length; inputIndex++){
   //console.log(`inputIndex is ${inputIndex}.`)
-  if(input[inputIndex === 'e']){
+  if(input[inputIndex] === 'e'){
     resultArray.push(input[inputIndex]);
   }
-  if(input[inputIndex === 'u']){
+  if(input[inputIndex] === 'u'){
     resultArray.push(input[inputIndex]);
   }
   for (vowelsIndex = 0; vowelsIndex<vowels.length; vowelsIndex++){
