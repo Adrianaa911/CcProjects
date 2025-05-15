@@ -106,9 +106,7 @@ If you’d like extra practice, try writing this project without the *= operator
 You can multiply a variable x by 10 using either approach below:
 
 x *= 10;
-
 or
-
 x = x * 10;
 laterYears *= 4;
 const AgeInDogYears = earlyYears + laterYears;
