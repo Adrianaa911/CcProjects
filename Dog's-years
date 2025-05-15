@@ -96,7 +96,6 @@ laterYears *= 4;
 const AgeInDogYears = earlyYears + laterYears;
 console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${AgeInDogYears} years old in dog years.`);
 
-
 If you’d like extra practice, try writing this project without the *= operator.
 
 8 human years = 45 dog years.
