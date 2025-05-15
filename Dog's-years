@@ -20,7 +20,6 @@ console.log(myAgeInDogYears);
 // Write your name as a string in a variable names myName and convert it to lower case using the built-in method .toLowerCase()
 const myName = "Adriana";
 console.log(myName.toLowerCase());
-
 /*
 Write a console.log statement that displays your name and age in dog years. Use string interpolation to display the value in the following sentence:
 
